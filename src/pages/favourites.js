@@ -1,6 +1,6 @@
 import React from 'react'
 
-function favourites(props) {
+function Favourites(props) {
   console.log(props)
   return (
     <>
@@ -10,5 +10,5 @@ function favourites(props) {
   )
 }
 
-export default favourites
+export default Favourites
 
