@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -10,7 +10,7 @@ export default function Navbar() {
         </Link>
         <button
           className="navbar-toggler"
-          type="button"
+          type="buton"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup"

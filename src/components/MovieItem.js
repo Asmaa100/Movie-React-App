@@ -5,7 +5,7 @@ export default function MovieItem(props ) {
   console.log(props)
   const movie= props.data;
   return (
-    <div className="card h-100  bg-dark">
+    <div className="card movie-item h-100  bg-dark">
       <img src={"https://image.tmdb.org/t/p/w500/"+ (movie.poster_path || movie.backdrop_path)} className="" alt={movie.title}/>
       <div className="card-body">
         <h5 className="card-title text-center text-light">{movie.title}</h5>

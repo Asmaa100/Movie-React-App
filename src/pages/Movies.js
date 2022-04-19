@@ -8,7 +8,7 @@ export default function Movies() {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
     axiosInstance
-      .get("https://api.themoviedb.org/3/movie/popular?api_key=e4c22d4d823464fe0ede30b831837a46")
+      .get("/movie/popular")
       .then((res) => setMovies(res.data.results))
       .catch((err) => console.log(err));
   }, []);
